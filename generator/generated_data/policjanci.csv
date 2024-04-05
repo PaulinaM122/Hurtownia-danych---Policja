@@ -1,0 +1,201 @@
+,PESEL,Imię,Nazwisko,Płeć,Stanowisko,Adres,Data_zatrudnienia,Komisariat_FK
+0,67071618828,Kornelia,Gierach,Kobieta,sierżant,"al. Truskawkowa 25/20
+11-141 Sochaczew",1994-02-02,5
+1,61032217884,Roksana,Zdonek,Kobieta,aspirant,"al. Torowa 312
+27-401 Wrocław",2020-11-22,8
+2,67091440063,Gaja,Misztela,Kobieta,komisarz,"plac Lotnicza 788
+96-730 Racibórz",2011-05-08,4
+3,73051128030,Alan,Otremba,Mężczyzna,funkcjonariusz,"aleja Wysoka 41/26
+50-953 Wołomin",1997-10-08,5
+4,33022221450,Michał,Dumin,Mężczyzna,sierżant,"ulica Kruczkowskiego 54/98
+96-924 Wągrowiec",2003-08-16,2
+5,47072460419,Grzegorz,Labocha,Mężczyzna,komisarz,"ul. Myśliwska 43/50
+20-285 Jaworzno",1987-03-14,2
+6,27112491739,Błażej,Subocz,Mężczyzna,funkcjonariusz,"al. Browarna 21
+41-157 Wrocław",1990-08-02,0
+7,55031216890,Rafał,Okła,Mężczyzna,sierżant,"plac Narcyzowa 36/23
+93-049 Bełchatów",1995-10-02,9
+8,24112261421,Anastazja,Sałuda,Kobieta,sierżant,"aleja Zielona 62
+64-319 Kłodzko",1999-08-30,4
+9,92101959943,Karina,Krzywoń,Kobieta,sierżant,"ul. Konstytucji 3 Maja 63
+92-795 Ostrowiec Świętokrzyski",2023-07-30,1
+10,28061839539,Marcel,Bela,Mężczyzna,funkcjonariusz,"al. Cegielniana 52/27
+23-565 Tarnów",1996-05-09,1
+11,57110291185,Ewelina,Elwart,Kobieta,komendant,"ul. Szafirowa 96/01
+08-139 Nowy Dwór Mazowiecki",1992-06-22,1
+12,23113079970,Damian,Cieciura,Mężczyzna,funkcjonariusz,"aleja Młyńska 00/14
+48-855 Luboń",1996-01-28,5
+13,71072786806,Lidia,Patrzałek,Kobieta,aspirant,"ulica Truskawkowa 312
+57-701 Koszalin",2012-08-31,4
+14,41072005164,Kalina,Szulist,Kobieta,inspektor,"al. Młynarska 76/33
+73-954 Malbork",2000-10-12,2
+15,41073195624,Anita,Burchard,Kobieta,komisarz,"al. Lelewela 41
+49-825 Warszawa",2022-08-29,7
+16,27012016975,Grzegorz,Kosowicz,Mężczyzna,nadkomisarz,"ul. Pszenna 29
+41-612 Radom",2015-09-10,6
+17,28112778844,Róża,Kabza,Kobieta,sierżant,"pl. Jarzębinowa 86/58
+91-038 Czerwionka-Leszczyny",2020-11-05,2
+18,68052249107,Ida,Becker,Kobieta,inspektor,"pl. Waryńskiego 72/45
+22-963 Chojnice",2003-02-16,8
+19,35012171017,Maksymilian,Żołądkiewicz,Mężczyzna,inspektor,"ul. Szmaragdowa 63/64
+10-427 Jarosław",2000-03-14,0
+20,57040476690,Gabriel,Kolber,Mężczyzna,inspektor,"pl. Jasna 75
+20-231 Krotoszyn",2012-04-26,1
+21,38121671889,Kaja,Trzpil,Kobieta,nadkomisarz,"pl. Akacjowa 96/59
+84-606 Pruszcz Gdański",2002-08-07,4
+22,32122624952,Adam,Ciesielczyk,Mężczyzna,komendant,"plac Wyzwolenia 26
+20-733 Radomsko",2019-03-28,4
+23,30070877893,Jacek,Larysz,Mężczyzna,funkcjonariusz,"plac Kaliska 78
+50-939 Goleniów",1985-09-30,6
+24,58052322157,Igor,Siemion,Mężczyzna,sierżant,"al. Widokowa 94
+22-053 Ruda Śląska",1998-08-23,4
+25,70061795306,Ewelina,Pieczyrak,Kobieta,sierżant,"plac Niepodległości 88/02
+07-895 Głogów",2020-07-17,6
+26,50073163915,Konstanty,Rok,Mężczyzna,inspektor,"plac Lelewela 129
+86-575 Koło",2015-11-11,2
+27,45011561524,Sandra,Orman,Kobieta,funkcjonariusz,"ulica Mieszka I 14/66
+27-170 Włocławek",1990-01-08,9
+28,50052464534,Arkadiusz,Teper,Mężczyzna,inspektor,"ul. Parkowa 423
+56-757 Nysa",1991-01-29,0
+29,61120206990,Jakub,Wacław,Mężczyzna,aspirant,"al. Wysoka 320
+71-974 Żory",1996-02-22,6
+30,43111397814,Tomasz,Wożniak,Mężczyzna,komendant,"ul. Narcyzowa 81/39
+52-910 Świętochłowice",1986-07-24,3
+31,44050714517,Norbert,Szafarz,Mężczyzna,inspektor,"plac Orla 228
+57-224 Gniezno",2001-02-19,9
+32,65111530419,Błażej,Jancewicz,Mężczyzna,aspirant,"ulica Wiślana 370
+14-576 Gliwice",1992-03-04,7
+33,58012240792,Artur,Wiciak,Mężczyzna,komisarz,"plac Reja 37/59
+35-898 Siemianowice Śląskie",2000-10-23,5
+34,87072628095,Norbert,Stoltman,Mężczyzna,aspirant,"ulica Skłodowskiej-Curie 03/91
+64-013 Pruszcz Gdański",2023-07-26,8
+35,64061807840,Sylwia,Matyka,Kobieta,funkcjonariusz,"ulica Królewska 65
+57-228 Gdańsk",2001-03-24,0
+36,72103053128,Lidia,Klisz,Kobieta,nadkomisarz,"pl. Witosa 430
+40-310 Płock",2007-01-20,5
+37,58072070137,Błażej,Sprycha,Mężczyzna,komisarz,"pl. Okrzei 24/59
+22-204 Kutno",1986-09-03,3
+38,32072682493,Paweł,Kadela,Mężczyzna,nadkomisarz,"al. Targowa 609
+72-119 Bytom",1989-07-04,8
+39,37052614237,Jerzy,Heba,Mężczyzna,sierżant,"plac Strzelecka 21
+21-596 Czerwionka-Leszczyny",2010-01-15,1
+40,73042146315,Sebastian,Pysz,Mężczyzna,inspektor,"aleja Listopada 83/34
+15-420 Rzeszów",1999-11-19,7
+41,65092835181,Kamila,Korkosz,Kobieta,komendant,"ulica Składowa 85
+75-821 Rzeszów",1983-12-19,4
+42,56082064661,Julita,Niedojadło,Kobieta,komendant,"ulica Kolejowa 25
+49-143 Rybnik",1993-03-05,3
+43,71033050852,Emil,Frycz,Mężczyzna,sierżant,"ul. Szeroka 83/30
+56-642 Czechowice-Dziedzice",2009-04-26,8
+44,53032886508,Tola,Klamka,Kobieta,aspirant,"pl. Torowa 28/63
+65-682 Świętochłowice",2022-10-15,8
+45,52070263483,Julita,Zdancewicz,Kobieta,aspirant,"ulica Podwale 80
+51-909 Tychy",1990-06-11,2
+46,57010167403,Karina,Gregorowicz,Kobieta,aspirant,"al. Tęczowa 24/81
+88-372 Nowy Sącz",2018-09-22,9
+47,67022472875,Adrian,Karpiak,Mężczyzna,funkcjonariusz,"ul. Narutowicza 269
+23-519 Nowy Targ",1991-06-14,5
+48,76010796527,Sylwia,Kijanka,Kobieta,sierżant,"pl. Spokojna 35/04
+17-937 Piotrków Trybunalski",2004-04-13,2
+49,35051424974,Mateusz,Grygo,Mężczyzna,aspirant,"plac Strumykowa 258
+57-040 Skawina",1997-09-28,3
+50,39021578197,Arkadiusz,Leszkiewicz,Mężczyzna,komendant,"plac Stolarska 22/40
+20-241 Pruszków",2001-07-26,8
+51,93012472118,Krzysztof,Becker,Mężczyzna,aspirant,"plac Żytnia 81
+13-776 Zawiercie",2019-01-17,4
+52,28110936273,Artur,Płaneta,Mężczyzna,komendant,"ulica Klonowa 15/13
+28-002 Sopot",1986-02-04,9
+53,40100449824,Róża,Kandora,Kobieta,aspirant,"aleja Starowiejska 10
+41-943 Ostrołęka",2020-08-08,3
+54,57081444128,Apolonia,Grabas,Kobieta,inspektor,"aleja Wczasowa 83
+68-816 Olkusz",2002-05-31,4
+55,67122077592,Tymoteusz,Madzia,Mężczyzna,komendant,"aleja Podgórna 64/28
+47-739 Katowice",1990-10-17,1
+56,45100973216,Arkadiusz,Wyroślak,Mężczyzna,funkcjonariusz,"ulica Kowalska 68/38
+12-346 Dąbrowa Górnicza",2012-04-16,6
+57,43091086418,Mariusz,Osada,Mężczyzna,komendant,"ul. Grottgera 898
+95-541 Żagań",1990-06-30,8
+58,44012381313,Daniel,Latek,Mężczyzna,komisarz,"ul. Odrzańska 007
+65-204 Zielona Góra",2010-04-07,6
+59,55090272112,Kacper,Woda,Mężczyzna,sierżant,"plac Krańcowa 14/38
+45-285 Płońsk",1987-09-28,4
+60,40122876040,Anastazja,Wasążnik,Kobieta,komendant,"ul. Plażowa 207
+09-081 Głogów",1992-01-09,1
+61,64121748340,Marika,Potyrała,Kobieta,sierżant,"ul. Wyzwolenia 405
+26-744 Szczecinek",2012-05-03,6
+62,38013142255,Julian,Tomalik,Mężczyzna,komisarz,"aleja Żabia 674
+42-370 Kutno",1987-10-31,7
+63,64041432097,Józef,Zimniak,Mężczyzna,sierżant,"aleja Hallera 117
+64-661 Jastrzębie-Zdrój",1995-12-23,8
+64,97020545424,Anastazja,Mendak,Kobieta,komendant,"plac Parkowa 04/03
+38-327 Legionowo",2022-07-08,2
+65,49072804684,Eliza,Gamrat,Kobieta,aspirant,"pl. Błękitna 13
+79-718 Cieszyn",2002-04-06,7
+66,31050466599,Miłosz,Paszkowiak,Mężczyzna,sierżant,"al. Lipowa 49/23
+04-632 Bydgoszcz",2015-05-14,0
+67,31101689254,Kornel,Żołna,Mężczyzna,aspirant,"al. Wschodnia 027
+15-912 Olkusz",1995-09-13,0
+68,41072699587,Kamila,Marko,Kobieta,inspektor,"al. Jabłoniowa 80/02
+75-377 Luboń",1984-12-15,3
+69,77032737619,Michał,Miksza,Mężczyzna,nadkomisarz,"pl. Skłodowskiej-Curie 05
+93-749 Świnoujście",2015-12-17,7
+70,74101474242,Sandra,Bugno,Kobieta,nadkomisarz,"aleja Kolonia 913
+40-206 Mysłowice",2016-04-19,6
+71,27071958405,Anita,Jajko,Kobieta,funkcjonariusz,"ul. Browarna 784
+30-686 Środa Wielkopolska",1989-03-02,3
+72,45093054938,Grzegorz,Dyrek,Mężczyzna,aspirant,"ulica Fabryczna 86/10
+89-348 Katowice",1986-05-07,1
+73,29070107828,Kalina,Burchardt,Kobieta,komendant,"al. Witosa 571
+14-386 Inowrocław",2002-08-28,7
+74,34090146153,Jędrzej,Styrna,Mężczyzna,aspirant,"ulica Strzelecka 87/68
+34-563 Ostrów Wielkopolski",2000-10-30,5
+75,42020665571,Tobiasz,Goj,Mężczyzna,funkcjonariusz,"plac Osiedlowa 093
+20-638 Chrzanów",1999-02-21,5
+76,98120714626,Agnieszka,Dziczek,Kobieta,sierżant,"al. Kruczkowskiego 632
+30-301 Gorzów Wielkopolski",2019-08-17,4
+77,78083133157,Marcel,Smyl,Mężczyzna,funkcjonariusz,"ulica Lipca 75/48
+01-384 Czerwionka-Leszczyny",2016-02-22,9
+78,69111805971,Leon,Wawrzyńczyk,Mężczyzna,aspirant,"ul. Chabrowa 983
+47-850 Koszalin",2003-10-04,9
+79,73061298015,Grzegorz,Tasarz,Mężczyzna,sierżant,"pl. Spacerowa 186
+95-983 Suwałki",2009-06-15,4
+80,64032629949,Melania,Krystkowiak,Kobieta,funkcjonariusz,"al. Miła 27/68
+51-792 Żary",2005-04-08,1
+81,58031326600,Melania,Gmurczyk,Kobieta,komendant,"al. Szafirowa 63
+57-209 Kędzierzyn-Koźle",2023-03-18,5
+82,56010157939,Mariusz,Tylman,Mężczyzna,komendant,"pl. Zacisze 76
+79-574 Grodzisk Mazowiecki",2001-06-07,7
+83,78052116565,Janina,Klęk,Kobieta,sierżant,"plac Perłowa 353
+09-033 Mielec",1997-07-22,0
+84,32071349993,Karol,Niechciał,Mężczyzna,komisarz,"plac Cicha 79/66
+64-302 Siedlce",2016-07-03,2
+85,25122635682,Klara,Droździel,Kobieta,komisarz,"plac Rzemieślnicza 40
+07-190 Malbork",1991-04-16,1
+86,41112889233,Adam,Bracha,Mężczyzna,komendant,"ul. Niepodległości 875
+52-817 Gniezno",2011-05-20,7
+87,31110797919,Ryszard,Wojaczek,Mężczyzna,inspektor,"plac Fabryczna 29/97
+73-801 Warszawa",1984-08-09,3
+88,60111928721,Agnieszka,Liss,Kobieta,sierżant,"plac Powstańców Wielkopolskich 63
+74-992 Czechowice-Dziedzice",2013-05-15,6
+89,39060508535,Marek,Gierach,Mężczyzna,komendant,"pl. Swierkowa 40/23
+27-217 Gorzów Wielkopolski",2015-03-23,0
+90,66021939336,Borys,Nędzi,Mężczyzna,sierżant,"ul. Tulipanowa 94/49
+60-889 Żagań",1991-12-18,3
+91,31012537691,Tymoteusz,Filiks,Mężczyzna,komisarz,"ul. Zaułek 16/95
+77-514 Gliwice",2011-12-23,1
+92,54100369035,Adam,Bienia,Mężczyzna,sierżant,"al. Dworcowa 60
+77-363 Biłgoraj",1999-06-01,9
+93,56072432353,Marek,Dziuda,Mężczyzna,funkcjonariusz,"aleja Jesionowa 69
+06-473 Śrem",1997-02-12,4
+94,74062573363,Marika,Pysz,Kobieta,komendant,"ulica Wrocławska 29/14
+53-829 Sosnowiec",2000-01-22,4
+95,74102949440,Gaja,Siembab,Kobieta,nadkomisarz,"al. Rajska 46/85
+98-667 Piotrków Trybunalski",2014-01-20,3
+96,35053081092,Maciej,Garbaciak,Mężczyzna,sierżant,"ulica Źródlana 383
+85-169 Mińsk Mazowiecki",2017-05-24,5
+97,36022315671,Sebastian,Rutowicz,Mężczyzna,komendant,"ul. Srebrna 45
+49-514 Rybnik",2002-05-18,9
+98,52011812185,Gaja,Plona,Kobieta,nadkomisarz,"ulica Korczaka 166
+19-873 Racibórz",2003-11-12,3
+99,65022567887,Liwia,Siedlarz,Kobieta,komisarz,"plac Poprzeczna 85/98
+52-548 Ostrów Wielkopolski",2004-10-04,0

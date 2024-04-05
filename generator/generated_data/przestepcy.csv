@@ -1,0 +1,201 @@
+ID,PESEL,Imię,Nazwisko,Płeć,Adres,Czy_zatrzymany
+0,44082102399,Tadeusz,Tokaj,Mężczyzna,"ulica Wojska Polskiego 58
+04-367 Lubartow",1
+1,44090488225,Ada,Trybus,Kobieta,"ulica Rózana 88
+04-128 Żagań",0
+2,71102908668,Melania,Ellwart,Kobieta,"plac Wolności 89/36
+15-961 Giżycko",1
+3,94013113208,Kalina,Buszka,Kobieta,"ul. Topolowa 90/81
+96-308 Sieradz",1
+4,75120122879,Leon,Duczek,Mężczyzna,"ul. Kolonia 36/18
+81-906 Sochaczew",0
+5,86110443568,Angelika,Pałac,Kobieta,"aleja Częstochowska 44/14
+55-798 Gniezno",1
+6,62071603924,Kaja,Wikło,Kobieta,"ul. Chabrowa 362
+92-324 Bielawa",1
+7,58062267684,Anastazja,Myszor,Kobieta,"ulica Kaliska 43
+67-223 Zduńska Wola",1
+8,30103106895,Franciszek,Pietrusiak,Mężczyzna,"ulica Żytnia 52
+34-319 Zabrze",1
+9,28090749959,Artur,Wicha,Mężczyzna,"al. Sienkiewicza 551
+55-931 Koszalin",0
+10,46052749124,Julita,Zaniewicz,Kobieta,"pl. Kossaka 78/44
+78-595 Sopot",1
+11,51072060401,Lidia,Karwot,Kobieta,"al. Leszczynowa 400
+51-602 Katowice",1
+12,27102274052,Maciej,Stanisławczyk,Mężczyzna,"aleja Chełmońskiego 613
+02-052 Gniezno",1
+13,80122947403,Eliza,Janiuk,Kobieta,"pl. Łąkowa 491
+40-425 Bielsk Podlaski",1
+14,40040155649,Melania,Niechciał,Kobieta,"pl. Pocztowa 44
+12-064 Koszalin",1
+15,45122563338,Natan,Klekot,Mężczyzna,"aleja Jagodowa 64/93
+20-922 Świebodzice",1
+16,5310303061,Marcelina,Olearczyk,Kobieta,"aleja Czereśniowa 476
+71-647 Knurów",1
+17,25052118400,Lidia,Bejnarowicz,Kobieta,"aleja Lipowa 10
+35-662 Sieradz",1
+18,82102437704,Eliza,Majzner,Kobieta,"ulica Łąkowa 89
+11-919 Malbork",1
+19,66111216460,Malwina,Grądziel,Kobieta,"aleja Krokusowa 99
+77-309 Bielsko-Biała",1
+20,45021496843,Ewa,Litwinowicz,Kobieta,"al. Lazurowa 81
+36-045 Lubin",1
+21,72012351515,Franciszek,Suszko,Mężczyzna,"al. Drzymały 14
+61-234 Bydgoszcz",1
+22,32060588295,Kacper,Osial,Mężczyzna,"aleja Jana Sobieskiego 841
+88-728 Skierniewice",0
+23,261564640,Marika,Kuryłowicz,Kobieta,"pl. Kamienna 310
+42-212 Ząbki",0
+24,61051788525,Malwina,Mazepa,Kobieta,"ulica Dobra 31/60
+62-876 Siemianowice Śląskie",1
+25,48050369777,Natan,Wojtasiewicz,Mężczyzna,"plac Wschodnia 517
+42-286 Luboń",1
+26,50012534040,Marika,Wota,Kobieta,"al. Armii Krajowej 18/01
+07-014 Września",0
+27,91061177589,Nela,Kurpisz,Kobieta,"ul. Koralowa 14
+82-420 Żory",1
+28,35082682693,Tomasz,Andryszczyk,Mężczyzna,"aleja Starowiejska 22
+31-767 Sochaczew",1
+29,41012596888,Anita,Prawdzik,Kobieta,"pl. Lubelska 31/52
+63-809 Jaworzno",1
+30,25120435598,Tobiasz,Matyjas,Mężczyzna,"pl. Głogowa 250
+28-960 Nowa Ruda",1
+31,87042360545,Tola,Romejko,Kobieta,"aleja Jana 20
+29-181 Wodzisław Śląski",1
+32,84103099068,Nicole,Nurkiewicz,Kobieta,"ul. Niecała 45
+08-256 Suwałki",1
+33,36091971309,Bianka,Greszta,Kobieta,"plac Jana III Sobieskiego 281
+56-416 Biłgoraj",1
+34,81120473754,Maks,Gałat,Mężczyzna,"al. Letniskowa 60
+58-326 Inowrocław",0
+35,31032476819,Bartek,Franaszek,Mężczyzna,"al. Kołłątaja 56
+48-888 Września",1
+36,98053186969,Olga,Kurzaj,Kobieta,"plac Wiślana 28/16
+46-409 Goleniów",0
+37,78060267172,Karol,Rząd,Mężczyzna,"ul. Rzemieślnicza 43/21
+21-864 Rybnik",0
+38,62012032060,Ada,Majak,Kobieta,"pl. Szarych Szeregów 45
+55-755 Szczecin",1
+39,90052329161,Anita,Żach,Kobieta,"plac Gołębia 24
+24-234 Piastów",1
+40,40092712090,Tymoteusz,Orzeszek,Mężczyzna,"al. Gołębia 82/61
+08-950 Lubliniec",0
+41,95030812376,Maksymilian,Milcarz,Mężczyzna,"al. Zaciszna 458
+67-175 Biłgoraj",1
+42,67011475229,Rozalia,Peda,Kobieta,"plac Partyzantów 53/60
+92-516 Nowy Targ",1
+43,35031867388,Lidia,Pasiut,Kobieta,"aleja Grottgera 71/87
+57-347 Gdynia",1
+44,62100898071,Wiktor,Mrozowicz,Mężczyzna,"aleja Północna 62
+16-637 Dąbrowa Górnicza",1
+45,37120733781,Adrianna,Steckiewicz,Kobieta,"plac Matejki 287
+81-460 Zgorzelec",1
+46,98070150020,Dorota,Penar,Kobieta,"al. Grabowa 48/37
+13-960 Poznań",1
+47,98030107110,Olgierd,Szalast,Mężczyzna,"aleja Bema 98
+27-108 Sosnowiec",0
+48,69012856270,Mateusz,Jankowicz,Mężczyzna,"pl. Kasztanowa 070
+83-624 Poznań",1
+49,46031647964,Nela,Osipowicz,Kobieta,"ul. Koralowa 390
+31-773 Olsztyn",1
+50,85062033324,Ada,Linkiewicz,Kobieta,"al. Dębowa 17/74
+79-367 Police",1
+51,64020440837,Damian,Cabała,Mężczyzna,"ul. Dąbrowskiej 145
+59-083 Bełchatów",1
+52,34052048138,Adrian,Gogol,Mężczyzna,"aleja Skłodowskiej-Curie 32
+32-896 Pruszków",0
+53,63050312839,Franciszek,Karalus,Mężczyzna,"ul. Wyzwolenia 697
+47-600 Pszczyna",1
+54,81071229769,Justyna,Meissner,Kobieta,"plac Poniatowskiego 77
+75-720 Skawina",0
+55,55081580860,Sonia,Szymała,Kobieta,"plac Niecała 655
+55-932 Brodnica",1
+56,96020492774,Józef,Powałka,Mężczyzna,"al. Fiołkowa 874
+31-659 Rumia",1
+57,89081149826,Julianna,Maksym,Kobieta,"ul. Głogowa 050
+14-701 Śrem",0
+58,29101626137,Iwo,Mordal,Mężczyzna,"ulica Morelowa 32/23
+31-476 Września",0
+59,78072782443,Urszula,Albin,Kobieta,"aleja Narutowicza 184
+02-589 Suwałki",1
+60,72061603298,Jacek,Wac,Mężczyzna,"ul. Dąbrowskiego 38/01
+74-977 Świdnik",1
+61,58100498496,Grzegorz,Nurek,Mężczyzna,"ul. Magnoliowa 50
+37-179 Piekary Śląskie",1
+62,41011437526,Janina,Mila,Kobieta,"pl. Akacjowa 68/60
+98-103 Oława",1
+63,31062982014,Bruno,Matela,Mężczyzna,"plac Wybickiego 601
+98-647 Piekary Śląskie",1
+64,75071277648,Nela,Sajda,Kobieta,"pl. Zdrojowa 65/06
+15-154 Zamość",1
+65,4232082834,Wojciech,Pszczółka,Mężczyzna,"ul. Plażowa 057
+60-801 Częstochowa",1
+66,86020290434,Tymoteusz,Wyroślak,Mężczyzna,"aleja Wrocławska 387
+60-231 Żory",1
+67,70013045121,Natasza,Boduch,Kobieta,"plac Niepodległości 414
+72-169 Żory",0
+68,1292378055,Cezary,Złotnik,Mężczyzna,"ulica Złota 01
+17-210 Wodzisław Śląski",1
+69,39091789727,Natasza,Czylok,Kobieta,"al. Widokowa 73/07
+83-386 Dębica",1
+70,45100129273,Norbert,Wałek,Mężczyzna,"al. Zakole 15/58
+68-048 Grudziądz",1
+71,82061107081,Janina,Maćczak,Kobieta,"al. Ceglana 56/92
+81-194 Kluczbork",1
+72,83012312688,Julianna,Jędrys,Kobieta,"ulica Zacisze 02/93
+44-674 Łowicz",1
+73,97120333206,Karina,Puc,Kobieta,"ulica Lazurowa 885
+65-694 Ostróda",1
+74,65021400800,Kaja,Wierzchoń,Kobieta,"aleja Parkowa 18
+07-683 Żywiec",1
+75,37093091581,Liwia,Nowrot,Kobieta,"aleja Księżycowa 41
+19-681 Swarzędz",1
+76,61062171622,Monika,Gendera,Kobieta,"plac Miła 515
+76-193 Czechowice-Dziedzice",1
+77,66052061886,Julianna,Semik,Kobieta,"pl. Składowa 761
+70-261 Koszalin",1
+78,73072722211,Patryk,Bociek,Mężczyzna,"plac Harcerska 42
+96-494 Czechowice-Dziedzice",1
+79,71061915266,Natasza,Miszkiewicz,Kobieta,"al. Ceglana 31
+16-188 Stargard Szczeciński",1
+80,94020484090,Maks,Kamela,Mężczyzna,"plac Ludowa 454
+62-088 Krosno",1
+81,2292097605,Agnieszka,Malka,Kobieta,"plac Krucza 86/00
+32-487 Kielce",1
+82,66101044332,Kacper,Wojtak,Mężczyzna,"pl. Zaciszna 972
+13-639 Ełk",1
+83,40122264807,Eliza,Koss,Kobieta,"aleja Średnia 44/77
+46-594 Leszno",0
+84,85031319842,Elżbieta,Kuciak,Kobieta,"ul. Kolorowa 44/15
+97-349 Puławy",0
+85,34092769428,Ada,Potoczna,Kobieta,"aleja Bema 53/66
+68-654 Września",1
+86,222211455,Oskar,Sinkiewicz,Mężczyzna,"pl. Księżycowa 52/70
+58-105 Wyszków",1
+87,81091126150,Tobiasz,Pianka,Mężczyzna,"ulica Ceglana 97
+04-661 Rzeszów",1
+88,31100976380,Sandra,Owsiany,Kobieta,"ul. Nadrzeczna 03/32
+78-696 Otwock",1
+89,50050229160,Apolonia,Ziegert,Kobieta,"aleja Bolesława Krzywoustego 31/77
+49-193 Wieluń",1
+90,65052167318,Krystian,Engler,Mężczyzna,"ul. Piekarska 84
+69-861 Mława",1
+91,98071440379,Franciszek,Wawszczak,Mężczyzna,"ulica Wolności 380
+87-142 Wejherowo",0
+92,99120232042,Rozalia,Kozdroń,Kobieta,"al. Środkowa 46/45
+21-396 Tychy",1
+93,95050293937,Gabriel,Kruszona,Mężczyzna,"pl. Dąbrowskiego 28
+35-824 Tomaszów Mazowiecki",1
+94,62050199679,Ksawery,Ankiewicz,Mężczyzna,"ul. Przemysłowa 274
+53-120 Jaworzno",1
+95,94042966039,Hubert,Małż,Mężczyzna,"ul. Mostowa 16
+79-331 Bielsk Podlaski",0
+96,99062691565,Blanka,Bawoł,Kobieta,"ulica Górna 88
+17-446 Suwałki",0
+97,85031038211,Marek,Grzejszczak,Mężczyzna,"ul. Żeglarska 786
+87-641 Płock",0
+98,41091149481,Ida,Hyży,Kobieta,"aleja Grzybowa 200
+30-092 Mikołów",1
+99,93101549987,Urszula,Mikus,Kobieta,"plac Orla 84
+14-179 Łowicz",1
