@@ -1,0 +1,225 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2654b28a-ff31-496e-bb88-108db0078cdc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Policjant</ID>
+  <Name>Policjant</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-370" scrolltop="-3850" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5093" y="10597" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Policjant" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4313" height="3188" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d9100000740c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Policjant" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-370</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3850</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7dd5cf0b-f129-4eeb-9d48-0872f6718f87">
+    <DataSourceViewID>Police DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="34753bc8-2403-433c-b441-84f5d8089432">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4cef1443-ab9e-4f12-8f18-781143097019">
+      <ID>ID Policjanta</ID>
+      <Name>ID Policjanta</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6fbbe670-05d0-466c-8079-ee976326f1fc">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72bbb8f5-6e87-41a6-8731-a86291b15faf">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>ID_policjanta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="16576b35-3e59-4ced-a72e-5ef3a89f97a8">
+          <AttributeID>ID Komisariatu</AttributeID>
+          <Name>ID Komisariatu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="824dc57a-a9d3-444a-ae46-3ac01a414632">
+          <AttributeID>Pesel</AttributeID>
+          <Name>Pesel</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f8463e2e-82f0-4f9a-a18a-bb0a83005def">
+          <AttributeID>Imie Nazwisko</AttributeID>
+          <Name>Imie Nazwisko</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0007ac57-2c5f-4ab3-9ea3-ea2eaf543393">
+          <AttributeID>Plec</AttributeID>
+          <Name>Plec</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="06c49931-01f9-473e-9cbc-1e6f1475ed96">
+          <AttributeID>Stanowisko</AttributeID>
+          <Name>Stanowisko</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cd4d6716-4437-4107-91ca-3a5dcc0fb452">
+          <AttributeID>Doswiadczenie Zawodowe</AttributeID>
+          <Name>Doswiadczenie Zawodowe</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="77619c35-8197-4956-a7c5-187378256e96">
+      <ID>ID Komisariatu</ID>
+      <Name>ID Komisariatu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0a18648-3c60-4115-98fb-0f8f8638268e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43f16a76-bee3-4f6d-855b-ed06d608e2d6">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>ID_komisariatu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="05d03880-1a98-4908-b28e-925d000fb970">
+      <ID>Pesel</ID>
+      <Name>Pesel</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="065fbd33-125c-4f55-83be-daf3c0307c80">
+          <DataType>WChar</DataType>
+          <DataSize>11</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="268ba8a8-e9c9-4f6b-a194-97c9c0b4c8f1">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>pesel</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c5bdafde-c61e-4391-abdc-fd1fcc041675">
+      <ID>Imie Nazwisko</ID>
+      <Name>Imie Nazwisko</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f339141-feb2-4cb1-8b1d-7c66df33fa88">
+          <DataType>WChar</DataType>
+          <DataSize>75</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29900fe2-8a86-4eb1-81c4-b220d6d5ab07">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>imie_nazwisko</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d6ec25b0-4500-457f-b2f9-aa24e3cc465d">
+      <ID>Plec</ID>
+      <Name>Plec</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58238f76-3d9f-446a-9b79-0b4c37ee687b">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af7398ed-b003-4591-9fd3-9d579fd442c5">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>plec</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f1492cb-0b7d-44f2-a14f-6a6ab55d5bfe">
+      <ID>Stanowisko</ID>
+      <Name>Stanowisko</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d173e4d8-9b3c-45ca-bdfa-3b09b60dc143">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0876f58-e5f3-48a2-806e-4788a12e458b">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>stanowisko</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73fe9217-492e-42a8-b357-75cbe24cab0b">
+      <ID>Doswiadczenie Zawodowe</ID>
+      <Name>Doswiadczenie Zawodowe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c12a4a16-7a7a-4580-996b-c8434eff5570">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="346b0a25-5b9e-4acb-a04c-9b56b894bc5c">
+            <TableID>dbo_Policjant</TableID>
+            <ColumnID>doswiadczenie_zawodowe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

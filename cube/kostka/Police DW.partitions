@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0db4e5ca-534e-4cd1-9efc-66c3dafc7bef" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Police DW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Interwencja</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="77e23cb9-9717-4a79-b39a-25ec9cc0a28d">
+          <ID>Interwencja</ID>
+          <Name>Interwencja</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5f6c3bf9-1617-4a2d-b366-0d6334ee63d7">
+            <DataSourceViewID>Police DW</DataSourceViewID>
+            <TableID>dbo_Interwencja</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Konserwacja</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="29af2bd2-f6d8-4c29-9777-7a032d60e834">
+          <ID>Konserwacja</ID>
+          <Name>Konserwacja</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4996b2d3-55ac-4993-bda7-4e987df4e7cd">
+            <DataSourceViewID>Police DW</DataSourceViewID>
+            <TableID>dbo_Konserwacja</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Policjant Na Interwencji</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e9536cc5-ea1c-4582-9edf-92ec8cfe2533">
+          <ID>Policjant Na Interwencji</ID>
+          <Name>Policjant Na Interwencji</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="97d8dc28-ec71-4c6a-b619-69f2a800f039">
+            <DataSourceViewID>Police DW</DataSourceViewID>
+            <TableID>dbo_Policjant_na_interwencji</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Przestepca Powoduje Interwencje</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="77cefa73-b159-4bc6-9e23-42619d3bbb35">
+          <ID>Przestepca Powoduje Interwencje</ID>
+          <Name>Przestepca Powoduje Interwencje</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ce50a622-6bb9-4dca-b2f9-9f87925f10c3">
+            <DataSourceViewID>Police DW</DataSourceViewID>
+            <TableID>dbo_Przestepca_powoduje_interwencje</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Wyposazenie Uzyte Na Interwencji</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e3a3155a-015c-4162-b3f2-46b68ada7767">
+          <ID>Wyposazenie Uzyte Na Interwencji</ID>
+          <Name>Wyposazenie Uzyte Na Interwencji</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8d43b5d9-8313-468f-8460-17f472fde904">
+            <DataSourceViewID>Police DW</DataSourceViewID>
+            <TableID>dbo_Wyposazenie_uzyte_na_interwencji</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,1492 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c680e0d2-356c-4b6b-8e92-e2d89078a375" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Police DW</ID>
+  <Name>Police DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1200" scrolltop="16552" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="12779" y="10702" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Przestepca_powoduje_interwencje" left="6732" top="516" logicalid="25" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Przestepca_powoduje_interwencje" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Data" left="8368" top="21878" logicalid="26" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2156" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006c080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Data" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Interwencja" left="6732" top="4900" logicalid="27" controlid="3" masterid="0" hint1="0" hint2="0" width="5477" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000065150000240f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Interwencja" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Wyposazenie" left="2324" top="16634" logicalid="28" controlid="4" masterid="0" hint1="0" hint2="0" width="4273" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b11000001c0b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Wyposazenie" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Lokalizacja" left="14609" top="5760" logicalid="29" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2156" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006c080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Lokalizacja" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Policjant" left="20" top="7178" logicalid="30" controlid="6" masterid="0" hint1="0" hint2="0" width="4313" height="3188" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d9100000740c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Policjant" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Raport_konserwacji" left="1986" top="26434" logicalid="31" controlid="7" masterid="0" hint1="0" hint2="0" width="4948" height="1812" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005413000014070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Raport_konserwacji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Konserwacja" left="2952" top="21878" logicalid="32" controlid="8" masterid="0" hint1="0" hint2="0" width="3016" height="2156" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b00006c080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Konserwacja" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Policjant_na_interwencji" left="676" top="3310" logicalid="33" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Policjant_na_interwencji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Wyposazenie_uzyte_na_interwencji" left="2952" top="12766" logicalid="34" controlid="10" masterid="0" hint1="0" hint2="0" width="3016" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Wyposazenie_uzyte_na_interwencji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Szczegoly_interwencji" left="13768" top="12766" logicalid="35" controlid="11" masterid="0" hint1="0" hint2="0" width="3188" height="2156" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000740c00006c080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Szczegoly_interwencji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Przestepca" left="12132" top="0" logicalid="36" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="2500" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000c4090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Przestepca" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9432" top="851" logicalid="37" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Przestepc__ID_pr__4CEB477C]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="1" sourceattachpoint="14" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12132" y="1250" />
+              <point x="9732" y="1250" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7932" top="1684" logicalid="38" controlid="14" masterid="0" hint1="0" hint2="0" width="1938" height="3716" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Przestepc__ID_in__4BF72343]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9470" y="4900" />
+              <point x="9470" y="3442" />
+              <point x="8232" y="3442" />
+              <point x="8232" y="1984" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9170" top="8476" logicalid="39" controlid="15" masterid="0" hint1="0" hint2="0" width="1098" height="13902" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Interwenc__ID_da__454A25B4]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9868" y="21878" />
+              <point x="9868" y="15327" />
+              <point x="9470" y="15327" />
+              <point x="9470" y="8776" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5668" top="22557" logicalid="40" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Konserwac__ID_da__40857097]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8368" y="22956" />
+              <point x="5968" y="22956" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10820" top="8476" logicalid="41" controlid="17" masterid="0" hint1="0" hint2="0" width="4942" height="4790" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Interwenc__ID_sz__4456017B]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="3" sourceattachpoint="4" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15362" y="12766" />
+              <point x="15362" y="10771" />
+              <point x="11120" y="10771" />
+              <point x="11120" y="8776" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11909" top="6439" logicalid="42" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Interwenc__ID_lo__47326E26]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="12" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14609" y="6838" />
+              <point x="12209" y="6838" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3376" top="3744" logicalid="43" controlid="19" masterid="0" hint1="0" hint2="0" width="3656" height="3494" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Policjant__ID_in__491AB698]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="9" sourceattachpoint="24" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6732" y="6838" />
+              <point x="5204" y="6838" />
+              <point x="5204" y="4044" />
+              <point x="3676" y="4044" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4160" top="8277" logicalid="44" controlid="20" masterid="0" hint1="0" hint2="0" width="4060" height="4789" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Wyposazen__ID_in__4ED38FEE]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="10" sourceattachpoint="3" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7820" y="8776" />
+              <point x="7820" y="10771" />
+              <point x="4460" y="10771" />
+              <point x="4460" y="12766" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4061" top="18979" logicalid="45" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Konserwac__ID_wy__3F914C5E]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4460" y="19478" />
+              <point x="4460" y="21878" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4061" top="13934" logicalid="46" controlid="22" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Wyposazen__ID_wy__4FC7B427]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4460" y="16634" />
+              <point x="4460" y="14234" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1777" top="4478" logicalid="47" controlid="23" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Policjant__ID_po__4A0EDAD1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="9" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2176" y="7178" />
+              <point x="2176" y="4778" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4061" top="23734" logicalid="48" controlid="24" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Konserwac__ID_ra__417994D0]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="8" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4460" y="26434" />
+              <point x="4460" y="24034" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Komisariat" left="8004" top="13335" logicalid="50" controlid="26" masterid="0" hint1="0" hint2="0" width="4516" height="2469" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a4110000a5090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Komisariat" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11612" top="7417" logicalid="51" controlid="27" masterid="0" hint1="0" hint2="0" width="3797" height="6218" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Komisaria__ID_lo__24DD5622]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="26" sourceattachpoint="1" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15009" y="7916" />
+              <point x="15009" y="10625" />
+              <point x="11912" y="10625" />
+              <point x="11912" y="13335" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4033" top="9572" logicalid="52" controlid="28" masterid="0" hint1="0" hint2="0" width="4271" height="4297" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Policjant__ID_ko__2B8A53B1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="26" destid="6" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8004" y="13469" />
+              <point x="6169" y="13469" />
+              <point x="6169" y="9872" />
+              <point x="4333" y="9872" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8070" top="8476" logicalid="53" controlid="29" masterid="0" hint1="0" hint2="0" width="942" height="5359" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Interwenc__ID_ko__463E49ED]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="26" destid="3" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8612" y="13335" />
+              <point x="8612" y="11056" />
+              <point x="8370" y="11056" />
+              <point x="8370" y="8776" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>1200</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>16552</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cac0fbb3-cbbe-439b-958e-0ce5de800a41">
+      <ID>Interwencja</ID>
+      <Name>Interwencja</Name>
+      <DimensionID>Interwencja</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="57274515-bc0f-4f3d-b85f-877f2d26f292">
+          <AttributeID>ID Interwencji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="820ce701-aaa5-411d-b310-f90be549146e">
+          <AttributeID>ID Komisariatu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1742092c-2943-4c14-b214-ec9a60d76685">
+          <AttributeID>ID Szczegolow</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bdc67377-74d0-4188-9a2f-a8718797e016">
+          <AttributeID>ID Daty</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="31f35d5e-b2c3-48ae-ac1f-14556d221592">
+          <AttributeID>ID Lokalizacji</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="965fe62b-5685-4ee9-9cde-29ef997cd336">
+      <ID>Szczegoly Interwencji</ID>
+      <Name>Szczegoly Interwencji</Name>
+      <DimensionID>Szczegoly Interwencji</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cb9cc7da-bb00-430d-8567-e584afb9635c">
+          <AttributeID>ID Szczegolow</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="528b94e8-540c-4583-a309-2681adb469a1">
+          <AttributeID>Rodzaj</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="739d5481-947e-44e3-b3bc-6b3510f429dc">
+          <AttributeID>Status Interwencji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="809b71af-7709-436e-8795-09847700c369">
+          <AttributeID>Powodzenie</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="eec2eac6-0821-43f5-abdf-585b138c314a">
+      <ID>Data</ID>
+      <Name>Data</Name>
+      <DimensionID>Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5fc48437-d80b-4af4-80f7-f3cf2a0785c9">
+          <AttributeID>ID Daty</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bebf9388-1c02-4fb3-a4b4-3242e415ac50">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8be6f7d0-922e-48f8-8254-54b85489548b">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2890e5a4-5ea5-431a-9e5d-a2d5f63a7789">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="46d37815-04f6-4746-818b-90e58dbe45ac">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="1d1a1bdb-e47d-4171-9b62-40c28e2b6341">
+      <ID>Lokalizacja</ID>
+      <Name>Lokalizacja</Name>
+      <DimensionID>Lokalizacja</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bbf763ee-eb5e-46df-b25e-356be880e675">
+          <AttributeID>ID Lokalizacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0c13e5e-2883-4262-9e32-7f90cec68c2a">
+          <AttributeID>Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="854b90d9-f5cd-48d8-9648-3faaa91d3cc2">
+          <AttributeID>Ulica</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f53befba-0f6a-4f39-9e35-e1eae5821a8e">
+          <AttributeID>Nr Budynku</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e1cba602-5836-4955-adfe-5c1ba8cc18de">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="10784d5a-8dff-4072-8330-7ea5281c9cd5">
+      <ID>Wyposazenie</ID>
+      <Name>Wyposazenie</Name>
+      <DimensionID>Wyposazenie</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2b8eb63d-a4ca-4368-b87c-51ad6f69fe50">
+          <AttributeID>ID Wyposazenia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7ed7d00-ccfd-4504-b1b2-33ea744b0357">
+          <AttributeID>Nazwa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f906015-8777-4105-a216-fa7c7135f2ab">
+          <AttributeID>Nr Seryjny</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c6b1f99-857b-4cb0-944f-4e712413a4d8">
+          <AttributeID>Rodzaj</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b2cd884-e4ec-4b8d-a273-112d1d5249ca">
+          <AttributeID>Czestotliwosc Konserwacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8dc90a4b-6424-4a29-99c3-b115eeee1660">
+          <AttributeID>Stan Techniczny</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="174a7e09-d4fe-4023-b5ba-92fe063d3ce6">
+      <ID>Raport Konserwacji</ID>
+      <Name>Raport Konserwacji</Name>
+      <DimensionID>Raport Konserwacji</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="98fde86a-fb22-45a8-a73c-4da1b5ec686b">
+          <AttributeID>ID Raportu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b50ff00-2ce0-4254-90e4-91e9c9e1d2a7">
+          <AttributeID>Kategoria Kosztow Konserwacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ddb42fe-b7ce-458d-b4bc-e9205c671b56">
+          <AttributeID>Imie Technika</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6587387b-e77f-4502-8c1d-0328f66715c6">
+      <ID>Policjant</ID>
+      <Name>Policjant</Name>
+      <DimensionID>Policjant</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="29ffc8a1-8e36-496d-8be2-bae4facc9172">
+          <AttributeID>ID Policjanta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c323da2-1cce-4405-ad78-22530503e190">
+          <AttributeID>ID Komisariatu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aeaacca0-48b1-462f-a7b6-4364e35f043e">
+          <AttributeID>Pesel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00459c75-f532-4386-809f-1e87f30bd1b3">
+          <AttributeID>Imie Nazwisko</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf399ef5-991f-4765-be01-6440ec341b42">
+          <AttributeID>Plec</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7cf04e6-d99c-486f-9576-76a7abb47dbf">
+          <AttributeID>Stanowisko</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="56513664-5dda-4627-ad09-9689cbd537d5">
+          <AttributeID>Doswiadczenie Zawodowe</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="981b8450-39dd-4349-ae32-fbb72a9a58f8">
+      <ID>Przestepca</ID>
+      <Name>Przestepca</Name>
+      <DimensionID>Przestepca</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="00ab23ce-8931-4675-9109-53f1e23baa9b">
+          <AttributeID>ID Przestepcy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="230d23d1-f7f2-43cd-97ff-4829c8682545">
+          <AttributeID>Pesel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ec878bb-4777-4d7e-bea4-8580436e5dbb">
+          <AttributeID>Imie Nazwisko</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cb1f5cf-8b74-4034-bf46-e88f64024d68">
+          <AttributeID>Czy Zatrzymany</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3ec7798-e08c-460c-adfa-8e21c6d15f3b">
+          <AttributeID>Plec</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="398acd5f-544a-4d1c-85c7-65b6463cf18f">
+      <ID>Komisariat</ID>
+      <Name>Komisariat</Name>
+      <DimensionID>Komisariat</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2330fc45-7367-407c-8c8d-64fb100734e5">
+          <AttributeID>ID Komisariatu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dfcfb2f3-248d-4000-93fa-93560aaeec5c">
+          <AttributeID>Kategoria Liczby Policjantow</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb365c99-64cc-4d0d-9698-0088f751076b">
+          <AttributeID>ID Lokalizacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="016a2ba7-5b7f-44d3-b51f-0eb72d6a0b9d">
+          <AttributeID>Nazwa</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="dad9ea3d-66be-425c-926a-f5e310d18661">
+      <ID>Policjant - ID Komisariatu - ID Lokalizacji</ID>
+      <Name>Komisariatu</Name>
+      <DimensionID>Lokalizacja</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="076a8fa3-e979-4b9a-a9f2-0301749c44e7">
+          <AttributeID>ID Lokalizacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a5abc754-ea9d-4545-b1f9-67ecb9332ee7">
+          <AttributeID>Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="067029d5-760e-4af9-a78c-3fb253ad715c">
+          <AttributeID>Ulica</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="562a9c1b-b5f8-460e-b72e-881a26174fd4">
+          <AttributeID>Nr Budynku</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8d602ed2-d905-4965-a6af-729c960a650b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="6c2dd9b4-2f4e-4860-94bc-c943f6b94c11">
+      <ID>Data 1</ID>
+      <Name>Komisaraitu</Name>
+      <DimensionID>Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2f522a48-f9ad-4c51-b556-9661762ec9cb">
+          <AttributeID>ID Daty</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d27df43a-da20-47fa-bae3-fd4ee8868c65">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb6ba794-7b33-4342-9855-6ab1b36bcc8a">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02f4dd0e-99b3-48d7-8d19-27653e15106d">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5229f17e-01a0-486c-a871-6eabeeb23553">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="de0d74ae-de12-4f35-a947-c0b55665e957">
+      <ID>Interwencja</ID>
+      <Name>Interwencja</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0ebe2aa9-b069-41b0-859c-ccf18cf10fba">
+          <ID>Liczba Przestepcow</ID>
+          <Name>Liczba Wszystkich Przestepcow</Name>
+          <Source dwd:design-time-name="892561b6-50a9-41f9-8000-d02a0f8f335e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3de6a6d9-2f10-49f0-900d-25459e553825">
+              <TableID>dbo_Interwencja</TableID>
+              <ColumnID>liczba_przestepcow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9c06d8e9-92cd-462c-a344-e2934629549a">
+          <ID>Liczba Zlapanych Przestepcow</ID>
+          <Name>Liczba Wszystkich Zlapanych Przestepcow</Name>
+          <Source dwd:design-time-name="52189c9a-f66c-450e-a71a-391ad115e830">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9944e7dd-0f4a-4223-8e7d-59a75b51e37f">
+              <TableID>dbo_Interwencja</TableID>
+              <ColumnID>liczba_zlapanych_przestepcow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bc8a5a33-0b85-47b0-8aff-48cd7e00e903">
+          <ID>Liczba Policjantow Na Interwencji</ID>
+          <Name>Liczba Policjantow Na Interwencji</Name>
+          <Source dwd:design-time-name="ddfacf4e-b6b1-4461-96e3-00b877b3492e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="208322d5-8ff5-4aee-a05a-d7f166a1cec4">
+              <TableID>dbo_Interwencja</TableID>
+              <ColumnID>liczba_policjantow_na_interwencji</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1e7f0b7b-77a8-4058-a85f-6845e3b27c86">
+          <ID>Srednie Doswiadczenie Policjantow</ID>
+          <Name>Srednie Doswiadczenie Policjantow</Name>
+          <Source dwd:design-time-name="1df54315-d3fc-43df-aeb7-64c42feb086d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e142d15-2c1e-4a3f-9356-11dc6fb1149c">
+              <TableID>dbo_Interwencja</TableID>
+              <ColumnID>srednie_doswiadczenie_policjantow</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9883d6f0-b2d4-4ab1-ba71-f4d421a539ce">
+          <ID>Interwencja Count</ID>
+          <Name>Interwencja Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3ef7fdce-c4dc-46ab-affd-1436cafe2a5b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="4677cf1a-fc59-4138-bcd3-6a0fda8fef4d">
+              <TableID>dbo_Interwencja</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="610f0fe2-ceac-4dda-b903-edc8c2fce236">
+          <CubeDimensionID>Interwencja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7ad30149-b733-4396-8dc2-e24e27381037">
+              <AttributeID>ID Interwencji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c26c2b3b-c180-47b8-a7f7-1af77417cbb4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2107aed1-c76b-48ee-8e58-3809b5764f0a">
+                    <TableID>dbo_Interwencja</TableID>
+                    <ColumnID>ID_interwencji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dc0a52ac-020b-4f29-85e1-d3418be2b2af">
+          <CubeDimensionID>Szczegoly Interwencji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="acb807c3-fc78-4181-a917-0326f5915beb">
+              <AttributeID>ID Szczegolow</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b343dbd6-21b0-442b-b2ef-e5733dcffce5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f83e320e-9260-4503-b1db-bd3559c63b83">
+                    <TableID>dbo_Interwencja</TableID>
+                    <ColumnID>ID_szczegolow</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="93e38c6f-7607-44a5-b872-84827c57c27e">
+          <CubeDimensionID>Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a975c86-7209-42ef-97b6-329703a5b824">
+              <AttributeID>ID Daty</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b2ff655c-e96e-43c8-9ae8-d5521635e8d7">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04996da9-b04b-42cd-a202-6a68c0ba1f2f">
+                    <TableID>dbo_Interwencja</TableID>
+                    <ColumnID>ID_daty</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cc3e7020-5d6c-4a87-98ce-c81ab2ea6a6d">
+          <CubeDimensionID>Lokalizacja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="96a8c43a-1cc8-4af6-94a2-f64188c761eb">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1955294f-a517-4f4e-a4bf-ba28e9ae7e72">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6fc92a27-6661-48c2-a75a-4cf9c388722a">
+                    <TableID>dbo_Interwencja</TableID>
+                    <ColumnID>ID_lokalizacji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="af1a0cfe-0b41-4e24-8fac-8e9f18b5fdcc">
+          <CubeDimensionID>Policjant</CubeDimensionID>
+          <MeasureGroupID>Policjant Na Interwencji</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e2a01e5-1f6f-4286-bd01-c9147522e88a">
+          <CubeDimensionID>Komisariat</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8d272501-2566-45da-9a4d-9f282916efaf">
+              <AttributeID>ID Komisariatu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="28b59620-94ce-426c-9871-c1558d9273e5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2517d920-00c4-489e-bf0b-fb3ad4195bb2">
+                    <TableID>dbo_Interwencja</TableID>
+                    <ColumnID>ID_komisariatu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="dffbae24-49cf-4874-a5de-fcdb4384c9ea">
+          <CubeDimensionID>Raport Konserwacji</CubeDimensionID>
+          <MeasureGroupID>Konserwacja</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="fba20894-e274-4be4-9762-7fb7b60fadeb">
+          <CubeDimensionID>Wyposazenie</CubeDimensionID>
+          <MeasureGroupID>Wyposazenie Uzyte Na Interwencji</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="38f70eed-2298-4899-886e-c38e10bf89b8">
+          <CubeDimensionID>Przestepca</CubeDimensionID>
+          <MeasureGroupID>Przestepca Powoduje Interwencje</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2b45378a-fbe4-4265-96f9-7c44e5c6360a">
+          <CubeDimensionID>Policjant - ID Komisariatu - ID Lokalizacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ee5d6c03-8493-4a58-aad8-e693d51f1184">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Komisariat</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="49c40405-00f1-4bcf-8f2c-511935e6a340">
+          <CubeDimensionID>Data 1</CubeDimensionID>
+          <MeasureGroupID>Konserwacja</MeasureGroupID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="162cd677-567d-4d8f-b86e-a95f7908e7f8">
+      <ID>Konserwacja</ID>
+      <Name>Konserwacja</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d47cd050-803f-4e6a-acc7-327076c1a81e">
+          <ID>Koszt</ID>
+          <Name>Koszt</Name>
+          <Source dwd:design-time-name="48fa3f49-3c02-4003-a9bb-3896abb62e3a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="78fda574-698e-40a4-94ec-1a3def936154">
+              <TableID>dbo_Konserwacja</TableID>
+              <ColumnID>koszt</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="83975882-4569-46ac-bbf6-9fc1e9c71394">
+          <ID>Konserwacja Count</ID>
+          <Name>Konserwacja Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="26b878d4-fe6d-4c51-9f4c-610ca06be4e5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ba2c8672-b1d7-4339-8051-c785243e39de">
+              <TableID>dbo_Konserwacja</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a7ccfc97-c37f-4f55-84d1-ba2e9a4cbe49">
+          <CubeDimensionID>Wyposazenie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8ce19473-7f44-4097-a256-6dc40ea998a7">
+              <AttributeID>ID Wyposazenia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bc389e0c-e896-470a-a937-d1f9cf920353">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bfd21688-0f2a-4ba2-b399-c114f2f7b15a">
+                    <TableID>dbo_Konserwacja</TableID>
+                    <ColumnID>ID_wyposazenia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="578207e0-5092-4658-a992-bebd89dad49d">
+          <CubeDimensionID>Raport Konserwacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1f158d28-e245-464e-838c-e1bd02917a3b">
+              <AttributeID>ID Raportu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eb35b2fb-7adc-4795-98aa-77ba6d08b8bf">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4650b542-0146-44f7-802c-34efaf257fae">
+                    <TableID>dbo_Konserwacja</TableID>
+                    <ColumnID>ID_raportu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5758273b-a60d-415d-a8ad-aeb3dca17d22">
+          <CubeDimensionID>Data 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c1195ddd-ae6a-45cb-b73f-4f920bbd59c5">
+              <AttributeID>ID Daty</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7456e0d0-a138-4bf2-a0bc-2621d08f33c0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="67f93e8a-787d-47c4-a59a-ade37694e671">
+                    <TableID>dbo_Konserwacja</TableID>
+                    <ColumnID>ID_daty</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="3b0756bf-a235-4557-89f3-2fa39a4406b7">
+      <ID>Policjant Na Interwencji</ID>
+      <Name>Policjant Na Interwencji</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="11d0e449-1f0f-4e1d-9b04-a04c70e5234b">
+          <ID>Policjant Na Interwencji Count</ID>
+          <Name>Policjant Na Interwencji Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="94a241c4-813f-4090-a5bc-b4b709f48879">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="48d68d3c-115e-4fb0-bb4b-7efe9f542bb7">
+              <TableID>dbo_Policjant_na_interwencji</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c4c786e9-b202-461f-8d1a-06ad420690a5">
+          <CubeDimensionID>Policjant</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="06bc817e-4427-4232-b5ae-5f1026ec7415">
+              <AttributeID>ID Policjanta</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2bd7e824-77be-4fa3-8854-e89c47d748bb">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="355cb564-05c7-4b10-924a-1834eb379f49">
+                    <TableID>dbo_Policjant_na_interwencji</TableID>
+                    <ColumnID>ID_policjanta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="1ce5f145-8757-4aac-bac4-24775ac9a25b">
+          <CubeDimensionID>Przestepca</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="58e0dac0-d285-4411-816d-6ca70565036d">
+              <AttributeID>ID Przestepcy</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Interwencji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5c205fd1-1eee-4018-8eff-d0f638a426bb">
+          <CubeDimensionID>Policjant - ID Komisariatu - ID Lokalizacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="30386268-f30f-473d-b508-e11e925d5734">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Komisariat</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2451b927-cd26-4fee-bc1b-86595f16332c">
+          <CubeDimensionID>Interwencja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4ddd5637-2c8c-438d-94ea-426f4f187623">
+              <AttributeID>ID Interwencji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="af90974c-2b8a-4d45-a661-54c18e578639">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6ae8a966-e2b9-47f5-b284-b67e45eaa6f1">
+                    <TableID>dbo_Policjant_na_interwencji</TableID>
+                    <ColumnID>ID_interwencji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="1f9cca44-9748-4d01-ab94-b980f6ee1a28">
+          <CubeDimensionID>Szczegoly Interwencji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fc70dc8b-0763-448c-a3ab-1ca942617579">
+              <AttributeID>ID Szczegolow</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Szczegolow</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="afd4b01e-105a-42bb-8729-05b864bec5bd">
+          <CubeDimensionID>Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="49713e2c-1655-4c52-a670-fb3b23e7d436">
+              <AttributeID>ID Daty</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Daty</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5c9fb8dd-300e-49dd-a48a-7916dd1f56c0">
+          <CubeDimensionID>Lokalizacja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3ed7c4eb-d7d5-4674-be17-b2d7d37d71b6">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="e07ff03b-a3f9-40b3-9aae-970d6f32c384">
+          <CubeDimensionID>Wyposazenie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0426b756-d363-4156-a5fe-df6860fd5d7b">
+              <AttributeID>ID Wyposazenia</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Interwencji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7d68ca1f-47bf-4719-a12f-c104406c7047">
+          <CubeDimensionID>Komisariat</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d48ff7ce-846c-4313-af1f-dbfdfcdc3b7c">
+              <AttributeID>ID Komisariatu</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Interwencji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f0703b23-2a1d-4751-8d02-cb0db961a4bc">
+      <ID>Przestepca Powoduje Interwencje</ID>
+      <Name>Przestepca Powoduje Interwencje</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ffd0c079-1248-4467-a82e-78dfd9b2f12c">
+          <ID>Przestepca Powoduje Interwencje Count</ID>
+          <Name>Przestepca Powoduje Interwencje Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ea83eb14-ccc2-427d-bbdf-28f9aedebf0b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8a8cbfed-d1ef-4965-90d7-188ef11f337d">
+              <TableID>dbo_Przestepca_powoduje_interwencje</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9ed3ef0b-f391-4b1a-a766-34c01e568424">
+          <CubeDimensionID>Przestepca</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2a802b82-170b-4888-a6cb-bf7f84a7d23e">
+              <AttributeID>ID Przestepcy</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4a588d90-6164-43e8-8cb5-fdf1f487d84d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="32d1dcf7-a689-47ff-8134-aafc6c9d499f">
+                    <TableID>dbo_Przestepca_powoduje_interwencje</TableID>
+                    <ColumnID>ID_przestepcy</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3fd7d12d-22f2-45bc-8f77-d60a8c9545ba">
+          <CubeDimensionID>Interwencja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="35736412-c885-4b47-8093-c5b2cd2b536e">
+              <AttributeID>ID Interwencji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0e44e3fd-2712-4126-91c3-f3b2b57ae60b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d5713bb-9653-4e1f-a53b-04a71cdb1bb0">
+                    <TableID>dbo_Przestepca_powoduje_interwencje</TableID>
+                    <ColumnID>ID_interwencji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="b401e147-8a7e-41ca-9a16-2dae85fc1042">
+          <CubeDimensionID>Policjant</CubeDimensionID>
+          <MeasureGroupID>Policjant Na Interwencji</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="6de26bb3-113d-4f8d-87e6-545c38df6fb0">
+          <CubeDimensionID>Wyposazenie</CubeDimensionID>
+          <MeasureGroupID>Wyposazenie Uzyte Na Interwencji</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="57152c36-fb9b-47a4-a9f3-4c7a7a580e52">
+          <CubeDimensionID>Szczegoly Interwencji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="99735ed0-5775-45b7-be60-961da85ad36b">
+              <AttributeID>ID Szczegolow</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Szczegolow</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f7152e16-8c51-4782-924b-d1b7139dc372">
+          <CubeDimensionID>Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="916f446b-c45b-4ffc-86f1-b74d06682d6e">
+              <AttributeID>ID Daty</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Daty</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="16c33d40-e63a-4ae6-81e1-9c34c6e16e96">
+          <CubeDimensionID>Lokalizacja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="580df634-d22e-42b6-8b7f-414ec2c42169">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c5ed5330-0084-4c78-afb5-f4fe2ef7cc67">
+          <CubeDimensionID>Komisariat</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a3938876-9d01-48e2-bb1f-bba8c8d1dfcd">
+              <AttributeID>ID Komisariatu</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Komisariatu</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="cdecd31e-0b0f-4151-b183-d93b53f53291">
+          <CubeDimensionID>Policjant - ID Komisariatu - ID Lokalizacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9160adb2-8499-475e-b954-78483f8d9b96">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Komisariat</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="af510fea-d623-49b3-9691-2c54d3447142">
+      <ID>Wyposazenie Uzyte Na Interwencji</ID>
+      <Name>Wyposazenie Uzyte Na Interwencji</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="12bbea1b-9853-43c2-935c-180fd6f38931">
+          <ID>Wyposazenie Uzyte Na Interwencji Count</ID>
+          <Name>Wyposazenie Uzyte Na Interwencji Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1a73a598-532f-40a6-a364-2a89e84b1f55">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d31d0a81-8923-4ebb-a7a5-b6cbc7efc105">
+              <TableID>dbo_Wyposazenie_uzyte_na_interwencji</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ab379027-3a81-4e14-a77b-a4b84eadb36f">
+          <CubeDimensionID>Wyposazenie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="305277e6-5046-4ab9-ab09-e577146a3730">
+              <AttributeID>ID Wyposazenia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1fdf35e3-8fb9-414e-98ba-e9869de82bd6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d6601816-d2cd-4d10-a163-007a0aaf623e">
+                    <TableID>dbo_Wyposazenie_uzyte_na_interwencji</TableID>
+                    <ColumnID>ID_wyposazenia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2f1362a7-d9ac-4e4f-bb4c-718a2a4fa843">
+          <CubeDimensionID>Interwencja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="df99fb18-51ec-476a-ac6f-2b053a37044a">
+              <AttributeID>ID Interwencji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8487fa9a-c496-4999-beca-43bdf46d9e44">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc4ca52e-c10e-4147-8fff-ac642dfb0f00">
+                    <TableID>dbo_Wyposazenie_uzyte_na_interwencji</TableID>
+                    <ColumnID>ID_interwencji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="73ea72c8-d4bc-4cde-a9b3-7b579d1d496e">
+          <CubeDimensionID>Policjant</CubeDimensionID>
+          <MeasureGroupID>Policjant Na Interwencji</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="4be93ebb-fbfd-451e-b1ff-a02a7ececc30">
+          <CubeDimensionID>Przestepca</CubeDimensionID>
+          <MeasureGroupID>Przestepca Powoduje Interwencje</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="60983dfc-fb43-485a-946a-5e7e0e276194">
+          <CubeDimensionID>Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ebb98140-e7d7-4161-a53b-879687999b07">
+              <AttributeID>ID Daty</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Daty</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="1357808b-69ec-42ea-b495-9dfb97ec1846">
+          <CubeDimensionID>Szczegoly Interwencji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d3c1634-0ad6-4abc-8296-92ba18df310d">
+              <AttributeID>ID Szczegolow</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Szczegolow</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="55bc584f-4202-48ef-bc0a-503b91227eac">
+          <CubeDimensionID>Lokalizacja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="589e6563-7147-4515-8043-3c73d0de0860">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8ae13f9e-dbae-4e01-b05e-a3d5aa3f63d8">
+          <CubeDimensionID>Komisariat</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ff19dfe7-3829-46d1-a25a-8d2fa666ea4b">
+              <AttributeID>ID Komisariatu</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Interwencja</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Komisariatu</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c9883acd-cdcc-4c81-9ef3-2b6f439dc7c8">
+          <CubeDimensionID>Policjant - ID Komisariatu - ID Lokalizacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c3efdfc7-b2e6-4c79-9458-d7a1f1669d30">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Komisariat</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Lokalizacji</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="603a00bd-a4ed-4c65-a9f9-bf17f1c8a83e">
+    <DataSourceViewID>Police DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="b3536deb-e0ae-4784-b450-682d0397d88b">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Liczba Wszystkich Niezatrzymanych Przestepcow]
+ AS [Measures].[Liczba Wszystkich Przestepcow] - [Measures].[Liczba Wszystkich Zlapanych Przestepcow], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Interwencja'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Ogolna Skutecznosc Interwencji]
+ AS [Measures].[Liczba Wszystkich Zlapanych Przestepcow]/[Measures].[Liczba Wszystkich Przestepcow], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Interwencja'  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

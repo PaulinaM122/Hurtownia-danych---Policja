@@ -1,0 +1,95 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Police DW</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DELL;Integrated Security=SSPI;Initial Catalog=PoliceDW</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Dell\pauli</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Szczegoly Interwencji</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Data</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Lokalizacja</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Wyposazenie</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Raport Konserwacji</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Interwencja</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Policjant</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Przestepca</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Komisariat</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Police DW</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Interwencja</ID>
+            <Partitions>
+              <Partition>
+                <ID>Interwencja</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Konserwacja</ID>
+            <Partitions>
+              <Partition>
+                <ID>Konserwacja</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Policjant Na Interwencji</ID>
+            <Partitions>
+              <Partition>
+                <ID>Policjant Na Interwencji</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Przestepca Powoduje Interwencje</ID>
+            <Partitions>
+              <Partition>
+                <ID>Przestepca Powoduje Interwencje</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Wyposazenie Uzyte Na Interwencji</ID>
+            <Partitions>
+              <Partition>
+                <ID>Wyposazenie Uzyte Na Interwencji</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

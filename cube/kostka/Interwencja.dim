@@ -1,0 +1,162 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="32f12931-4022-45fb-8a1f-e9a9c4365229" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Interwencja</ID>
+  <Name>Interwencja</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2d77f1c1-ae3e-413c-b192-823c6e4633ed">
+    <DataSourceViewID>Police DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="8dbc6845-ed65-4685-accc-0e710c54154a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="09614e75-67c8-4182-b1c3-c3241bc34b2e">
+      <ID>ID Interwencji</ID>
+      <Name>ID Interwencji</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8dcba8e0-e994-4c47-9b3c-9317e66781f1">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe71f2c4-4468-4d97-bd8d-20b38f779900">
+            <TableID>dbo_Interwencja</TableID>
+            <ColumnID>ID_interwencji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3c0ee527-dca5-4292-8f6f-80563a91208b">
+          <AttributeID>ID Komisariatu</AttributeID>
+          <Name>ID Komisariatu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2011d2d7-4148-4893-acd9-d7b610cfc7b8">
+          <AttributeID>ID Szczegolow</AttributeID>
+          <Name>ID Szczegolow</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="56300fbb-ac23-4e4f-a2d1-4193d4540efd">
+          <AttributeID>ID Daty</AttributeID>
+          <Name>ID Daty</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="47836c96-8a25-4451-8de7-2112a93d1a00">
+          <AttributeID>ID Lokalizacji</AttributeID>
+          <Name>ID Lokalizacji</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1967d42e-1e7d-47a7-8a88-0751723bed45">
+      <ID>ID Komisariatu</ID>
+      <Name>ID Komisariatu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87a451dd-46ae-4e89-80a5-0c51d9cffe89">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="88e4c5f3-9a8a-48eb-be72-bf4b304e6dc2">
+            <TableID>dbo_Interwencja</TableID>
+            <ColumnID>ID_komisariatu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37d25249-b7ce-44c0-940c-a3e01ca086a0">
+      <ID>ID Szczegolow</ID>
+      <Name>ID Szczegolow</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="403fc0a2-5525-4604-a592-b1c5aa755f61">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="34d123a8-1261-4d87-9281-bdd0cca100bb">
+            <TableID>dbo_Interwencja</TableID>
+            <ColumnID>ID_szczegolow</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b9887a0-4d11-45c0-af91-85416d4acd84">
+      <ID>ID Daty</ID>
+      <Name>ID Daty</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0ce2efc6-7f9f-4122-b8f6-fb4582dca839">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="462b88c1-bd82-488d-b84a-48770b03777d">
+            <TableID>dbo_Interwencja</TableID>
+            <ColumnID>ID_daty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="27ebb086-5b83-4433-8a7f-ca07bdcef348">
+      <ID>ID Lokalizacji</ID>
+      <Name>ID Lokalizacji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f74174b-83dc-4f54-af7a-0df067f9aab5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7174d5db-dfe0-4235-b794-7413bdabd183">
+            <TableID>dbo_Interwencja</TableID>
+            <ColumnID>ID_lokalizacji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

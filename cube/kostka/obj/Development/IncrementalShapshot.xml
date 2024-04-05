@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>PoliceDW</Database>
+    <Server>DELL</Server>
+    <ConnectionString>Data Source=DELL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zhB8k/FB+b1epuIDi4UpDu3hcBw=13.12.2023 07:32:2713.12.2023 07:32:27</TimeStamp>
+        <ID>
+          <String>Police DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>C2pq657YPoOsI4fQs+avPRY1tEo=18.12.2023 16:28:2613.12.2023 07:33:51</TimeStamp>
+        <ID>
+          <String>Police DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TnQYedflnC2Gv8Uef1rPqdGoFSc=13.12.2023 07:36:4813.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Szczegoly Interwencji</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2MyYDXCeNpjO7pP34/Bn/L0UuHY=13.12.2023 07:42:4713.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Zvqf9cvhTpYgbwdLZxQm69i60S0=13.12.2023 07:38:0713.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Lokalizacja</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yMyexIXo7Inv80tjn0nYtvyEiSg=13.12.2023 07:38:4613.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Wyposazenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vz3KMeRae8e9FycXdpT9JWoAX4o=13.12.2023 07:38:4613.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Raport Konserwacji</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4mqc/wisU6W9EGut0VSgQ3MNIe0=13.12.2023 07:35:2413.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Interwencja</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+bLyOH4dZdb64TEa4zYqOtfvWzw=13.12.2023 07:39:4313.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Policjant</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>B8+T4YUDKVr0/YzR7ZCswPNv54Q=13.12.2023 07:40:0713.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Przestepca</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k6exhJRkGMr6oPhZPu1NkdFyq0o=13.12.2023 07:57:4313.12.2023 07:57:04</TimeStamp>
+        <ID>
+          <String>Komisariat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9hHC0JrnBGTdUW9tEgt1nOG5N3E=18.12.2023 17:06:2213.12.2023 07:35:24NkCYFYb9fFfER3YtvOkeh9Us+uQ=13.12.2023 07:35:2413.12.2023 07:35:24</TimeStamp>
+        <ID>
+          <String>Police DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>/1ek+UJ7Mj1pqSZa952BvCIoS/Y=13.12.2023 07:30:3713.12.2023 07:30:36</TimeStamp>
+      <ID>
+        <String>PoliceDW</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-12-18T16:06:30.37Z</LastDeployed>
+</DeploymentSnapshot>
